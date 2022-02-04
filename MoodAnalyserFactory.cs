@@ -28,7 +28,7 @@ namespace MoodAnalyser
                 }
             }
             else
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.TypeOfException.NO_SUCH_CONSTRUCTOR, "no such constructor found");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.TypeOfException.NO_SUCH_METHOD, "no such constructor found");
         }
 
     }
